@@ -1,0 +1,39 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    text-decoration: overline underline ;
+    text-decoration-color: black;
+}
+
+ul {
+    background-color: rgb(81, 255, 0);
+    line-height: 40px;
+    text-align: center;
+}
+
+.background-p-ul{
+    background-color: orange
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    font-style: oblique;
+}
+
+body {
+    font-size: 16px;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+}
+
+#brown {
+    background-color: rgb(83, 38, 8);
+}
