@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  list-style: none;
+}
+nav {
+  background-color: black;
+  padding: 15px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 20px;
+}
+body {
+  margin-top: 70px;
+}
+
+img {
+  width: 400px;
+}
+
+iframe {
+  width: 400px;
+  height: 300px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bolder
+}
