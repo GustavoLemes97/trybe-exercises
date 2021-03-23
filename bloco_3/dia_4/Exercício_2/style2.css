@@ -23,11 +23,15 @@ body {
 
 img {
   width: 400px;
+  display: block;
+  margin: auto;
 }
 
 iframe {
-  width: 400px;
+  display: block;
+  width: 500px;
   height: 300px;
+  margin: auto;
 }
 
 ul {
@@ -38,4 +42,38 @@ ul li a {
   color: blue;
   text-decoration: none;
   font-weight: bolder
+}
+
+h1, h2, h3, h4 {
+  padding: 5px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+p {
+  margin: 25px;
+  margin-top: 5px;
+  font-size: large;
+}
+
+table {
+  margin: auto;
+  padding: 30px;
+  border-collapse: collapse;
+}
+
+table,td , th {
+  border: 1px solid rgb(160, 155, 155);
+}
+
+.action-video{
+  display: inline-block;
+  width: 40%;
+  position: fixed;
+
+}
+
+.article-content {
+  display: inline-block;
+  width: 60%;
 }
