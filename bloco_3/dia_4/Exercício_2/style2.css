@@ -36,11 +36,11 @@ iframe {
 
 ul {
   padding: 0;
+  text-align: center;
 }
 
 ul li a {
   color: blue;
-  text-decoration: none;
   font-weight: bolder
 }
 
@@ -76,4 +76,15 @@ table,td , th {
 .article-content {
   display: inline-block;
   width: 60%;
+}
+
+footer p{
+  text-align: right;
+  font-size: smaller;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
