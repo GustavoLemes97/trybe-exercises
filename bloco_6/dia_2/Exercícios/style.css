@@ -1,0 +1,14 @@
+.hideSection {
+  display: none;
+}
+
+.forms-border {
+  padding: 1.5rem;
+  margin-right: 0;
+  margin-left: 0;
+  border-width: .2rem;
+  margin: 30px auto 30px auto;
+  border: solid #f7f7f9;
+  position: relative;
+  max-width: 70%;
+}
