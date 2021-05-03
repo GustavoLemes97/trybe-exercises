@@ -67,8 +67,8 @@ const expectedResult = false;
 
 function authorUnique(array) {
   let bool;
-  array.some((elementSome) => {
-    array.forEach((elementForEach) => elementSome.author.birthYear === elementForEach.author.birthYear ? bool = false : bool = true)
+  array.forEach((elementForEach) => {
+    bool = !array.some((elementSome) => elementSome.author.birthYear === elementForEach.author.birthYear);
   });
   return bool;
 }
