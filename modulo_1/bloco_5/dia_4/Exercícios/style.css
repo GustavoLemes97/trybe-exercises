@@ -1,0 +1,41 @@
+* {
+  margin-left: 10px;
+}
+
+header {
+  text-align: center;
+  width: 60%;
+}
+
+article {
+  font-size: 20px;
+  font-family:;
+}
+
+section, aside {
+  display: inline-block;
+  width: 60%;
+}
+
+aside {
+  width: 30%;
+  position: absolute;
+}
+
+button {
+  display: block;
+  margin: 20px 0;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(206, 199, 194);
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(22, 21, 21);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(158, 154, 151);
+}
+
