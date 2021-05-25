@@ -1,0 +1,23 @@
+* {
+  margin: 5px;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 47%;
+  border: 2px solid rgb(216, 209, 209);
+  margin: 20px;
+  border-radius: 20px;
+  justify-content: space-evenly;
+}
+
+.pokemon div{
+  margin: auto;
+}
+
+.imagem {
+  width: 150px;
+  margin: auto;
+}
