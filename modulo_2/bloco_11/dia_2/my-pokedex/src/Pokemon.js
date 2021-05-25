@@ -9,14 +9,14 @@ import PropTypes from 'prop-types'
 
 export default class Pokemon extends Component {
   render() {
-    const { name, type, averageWeightValue, averageWeightUnit, image } = this.props;
+    const { name, type, averageWeight, image } = this.props.pokemon;
     return(
     <div className='pokemon'>
       <div>
       <h3>{name}</h3>
       <p>{type}</p>
-      <p>Average Weight: {averageWeightValue}
-      <span>{averageWeightUnit}</span>
+      <p>Average Weight: {averageWeight.value}
+      <span>{averageWeight.measurementUnit}</span>
       </p>
       </div>
       <img className='imagem' src={image} alt={name}></img>
@@ -28,6 +28,5 @@ export default class Pokemon extends Component {
 Pokemon.propTypes = {
   name: PropTypes.string,
   type: PropTypes.string,
-  averageWeightValue: PropTypes.number,
-  averageWeightUnit: PropTypes.string,
+  averageWeight: PropTypes.object,
 }

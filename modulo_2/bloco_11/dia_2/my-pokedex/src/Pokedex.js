@@ -5,16 +5,10 @@ import pokemons from './data';
 
 export default class Pokedex extends Component {
   render() {
-
-    return pokemons.map(pokemon => {
-      return (<Pokemon key={pokemon.id}
-        name = {pokemon.name} 
-        type = {pokemon.type} 
-        averageWeightValue = {pokemon.averageWeight.value}
-        averageWeightUnit = {pokemon.averageWeight.measurementUnit}
-        image = {pokemon.image}
+    return pokemons.map(pkmn => {
+      return (<Pokemon key={pkmn.id}
+        pokemon = {pkmn}
         />);
     });
-    
   }
 }
